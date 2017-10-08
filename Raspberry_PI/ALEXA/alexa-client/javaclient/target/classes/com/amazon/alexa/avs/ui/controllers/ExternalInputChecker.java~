@@ -1,0 +1,14 @@
+package com.amazon.alexa.avs.ui.controllers;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class ExternalInputChecker {
+
+    private static final Logger log = LoggerFactory.getLogger(ListenViewController.class);
+    
+    public ExternalInputChecker()
+    {
+	log.info("ExternalInputChecker initialized!");
+    }
+}

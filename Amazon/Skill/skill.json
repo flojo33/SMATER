@@ -1,0 +1,128 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": [
+        "Abbrechen"
+      ]
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": [
+        "Hilfe",
+        "Was muss ich machen",
+        "Was kannst du"
+      ]
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": [
+        "Aus",
+        "Aufhören",
+        "Stop"
+      ]
+    },
+    {
+      "name": "colorTold",
+      "samples": [
+        "{color}"
+      ],
+      "slots": [
+        {
+          "name": "color",
+          "type": "color",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "fragend_mit",
+      "samples": [
+        "mit frage nach {device}"
+      ],
+      "slots": [
+        {
+          "name": "device",
+          "type": "AMAZON.NUMBER",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "mit",
+      "samples": [
+        "mit gerät {device}"
+      ],
+      "slots": [
+        {
+          "name": "device",
+          "type": "AMAZON.NUMBER",
+          "samples": []
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "name": "color",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "grün",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "rot",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "blau",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "orange",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "weiss",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "pink",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "lila",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "gelb",
+            "synonyms": []
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+com/amazon/alexa/avs/AVSController$4.class
+com/amazon/alexa/avs/AVSAudioPlayer$6.class
+com/amazon/alexa/avs/ui/controllers/ListenViewController$1.class
+com/amazon/alexa/avs/http/MultipartContentProvider$1.class
+com/amazon/alexa/avs/ui/headless/HeadlessListenView$1.class
+com/amazon/alexa/avs/http/jetty/PingSendingHttpClientTransportOverHTTP2$1.class
+com/amazon/alexa/avs/http/jetty/InputStreamResponseListener$1.class
+com/amazon/alexa/avs/ui/controllers/PlaybackViewController$1.class
+com/amazon/alexa/avs/ExternalStatusController.class
+com/amazon/alexa/avs/auth/companionapp/CompanionAppAuthManager$1.class
+com/amazon/alexa/avs/NotificationManager$5.class
+com/amazon/alexa/avs/auth/companionservice/CompanionServiceAuthManager$1.class
